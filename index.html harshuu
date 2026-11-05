@@ -1,0 +1,220 @@
+
+overflow:hidden;text-align:center}
+.memory img{
+ width:100%;height:190px;
+ object-fit:cover;display:block;
+}
+.caption{padding:11px 5px;font-size:12px;font-weight:700}
+.promise{
+ background:#fff5f9;padding:18px;
+ border-radius:18px;line-height:2.3;
+ font-size:14px;
+}
+.promise div{margin:7px 0}
+.final{
+ display:none;font-family:'Great Vibes',cursive;
+ font-size:43px;color:#d93675;
+ line-height:1.5;text-align:center;
+ animation:show 1s ease;
+}
+footer{text-align:center;padding:30px 10px;font-size:13px;line-height:2}
+@media(max-width:380px){
+ .memory img{height:145px}
+ .section{padding:23px 15px}
+}
+</style>
+</head>
+
+<body>
+<div class="hearts" id="hearts"></div>
+<main>
+
+<section class="hero">
+ <div class="tag">A LITTLE WORLD MADE JUST FOR YOU</div>
+ <div class="bigheart">❤️</div>
+ <h1>Happy Birthday<br>Harshuu</h1>
+ <p class="subtitle">
+ To the girl who became my favourite person,<br>
+ my happiness and my most unexpected blessing.
+ </p>
+ <button onclick="startSurprise()">Open Your Surprise 🎁</button>
+ <p style="font-size:12px">A little piece of my heart, just for you.</p>
+</section>
+
+<section class="section">
+ <h2>To My Beautiful Girl</h2>
+ <p>Some people enter our lives unexpectedly, and somehow they become the people we never want to imagine life without.</p>
+ <p>You are that person for me, Harshuu. I never planned for our story to become something this special, but somewhere along the way, you became a part of my everyday thoughts, my happiness and my dreams.</p>
+ <p>If I could give you one thing today, it would be the ability to see yourself through my eyes. Maybe then you would understand how incredibly special you are to me.</p>
+ <p class="center"><b>You are one of the best things that ever happened to me. ❤️</b></p>
+</section>
+
+<section class="section">
+ <h2>Our Unexpected Story</h2>
+ <p>Our story wasn't something I had planned. It happened in its own unexpected way, and now I cannot imagine my life without the memories we've created.</p>
+ <p>When I look back at how everything began, I know there are moments I wish I could rewrite. I wasn't always the person you deserved. I was rude at times, I failed to understand your feelings, and I know I made you feel hurt.</p>
+ <p>If I could go back, I would hold back my words, listen more and understand you better. I cannot change yesterday, and I don't want to pretend those mistakes never happened. I genuinely regret hurting someone who means so much to me.</p>
+ <p>But I want you to see the person I am trying to become. Not someone who promises perfection, but someone who understands his mistakes, learns from them and makes a real effort to love you better.</p>
+ <p class="center"><b>I wish to give you more reasons to smile than reasons to feel hurt.</b></p>
+</section>
+
+<section class="section">
+ <h2>Words From My Heart</h2>
+ <p class="center">There are feelings I struggle to express when I'm talking to you. So today, I want you to read what my heart has been trying to say.</p>
+ <div class="center">
+  <button onclick="openLetter()">Read My Little Letter 💌</button>
+ </div>
+ <div class="letter" id="letter">
+My dearest HARSHUU,
+
+I don't know if these words will ever be enough to explain what you mean to me, but I want to try.
+
+I love the person you are. I love your presence, your little habits, your happiness, your silly moments and even the little things you probably don't realise I notice.
+
+You have a special place in my heart that nobody else could simply take.
+
+Sometimes I wonder how someone who was once a stranger could become someone whose happiness matters this much to me. Life really surprises us in the most beautiful ways.
+
+I know I haven't always made you feel as loved as you deserve. I carry regret for the times I made you question my feelings or made you feel bad. I'm genuinely sorry, my girl.
+
+I never want you to feel that you have to hide your emotions from me. If something is bothering you, tell me. If you're sad, let me know. If something makes you happy, share it with me.
+
+You don't have to pretend to be okay just to protect my feelings. I want to understand the real you, not just the version that always smiles.
+
+I want us to become better together.
+
+I don't expect every day to be perfect. There will be disagreements, silly fights, misunderstandings and moments when we might not understand each other. But I hope we never forget that we're on the same side.
+
+Let's learn to communicate, forgive, understand and choose each other even on difficult days.
+
+And yes, my MADAM GARUU, I'll continue annoying you, irritating you, teasing you and making you laugh at the most random times. 😭
+
+But behind all those silly moments is a boy who genuinely wants to see you happy.
+
+I want to celebrate your achievements, support your dreams, listen to your stories and be there when life gets difficult.
+
+I want my actions to slowly show you everything that my words sometimes fail to explain.
+
+Thank you for giving me a place in your life. Thank you for the memories, the laughter and the moments that have become so precious to me.
+
+You are loved. You are valued. Your feelings matter. And you never have to pretend to be someone else around me.
+
+Happy Birthday, my beautiful girl.
+
+I hope this new year of your life brings you peace, happiness, success and every beautiful thing your heart wishes for.
+
+I love you more than I sometimes know how to express.
+
+Forever your annoying person,
+
+YOUR BOY. ❤️
+ </div>
+</section>
+
+<section class="section">
+ <h2>Our Little World</h2>
+ <p class="center">A few memories that deserve a special place in our story.</p>
+
+ <div class="gallery">
+  <div class="memory">
+   <img src="photos/harshuu1.jpg" alt="Our first memory">
+   <div class="caption">A memory to treasure ❤️</div>
+  </div>
+  <div class="memory">
+   <img src="photos/harshuu2.jpg" alt="Our beautiful moment">
+   <div class="caption">One of my favourites</div>
+  </div>
+  <div class="memory">
+   <img src="photos/harshuu3.jpg" alt="Our special memory">
+   <div class="caption">A moment worth keeping</div>
+  </div>
+  <div class="memory">
+   <img src="photos/harshuu4.jpg" alt="Our lovely memory">
+   <div class="caption">Just us, being us</div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <h2>What I Want You To Feel</h2>
+ <div class="promise">
+  <div>♡ Safe enough to tell me anything.</div>
+  <div>♡ Comfortable enough to be completely yourself.</div>
+  <div>♡ Understood even when you struggle to explain.</div>
+  <div>♡ Loved through actions, not just beautiful words.</div>
+  <div>♡ Free to follow your dreams.</div>
+  <div>♡ Never alone when you need someone beside you.</div>
+ </div>
+ <p>I cannot promise that I'll never make mistakes. But I want to keep learning how to understand you, respect you and care for you better.</p>
+</section>
+
+<section class="section">
+ <h2>One Day At A Time</h2>
+ <p>I don't want to rush through the beautiful moments worrying about what might happen tomorrow.</p>
+ <p>I want to enjoy our conversations, our laughter, our silly arguments, our little celebrations and all those ordinary days that become special simply because we're sharing them.</p>
+ <p>Let's keep growing, keep understanding each other and keep creating a story that we can look back on with happy hearts.</p>
+ <p class="center"><b>Not perfect, just genuine. Not without problems, but willing to understand each other. ❤️</b></p>
+</section>
+
+<section class="section">
+ <h2>One Last Thing, My Girl</h2>
+ <p class="center">If I could make one wish on your birthday, it would be to see you genuinely happy, confident and proud of the person you are becoming.</p>
+ <p class="center">Never make yourself smaller, never hide your beautiful personality and never stop chasing the things that make your heart happy.</p>
+ <div class="center">
+  <button onclick="lastSurprise()">A Final Little Surprise 💗</button>
+ </div>
+ <div class="final" id="final">
+  If life gave me a thousand unexpected stories...<br>
+  I'd still be grateful that one of them brought me to you.<br>
+  Happy Birthday, my Harshuu.<br>
+  I love you, MADAM GARUU. ❤️
+ </div>
+</section>
+
+<footer>
+ Made with all the love my heart could hold.<br>
+ For HARSHUU, my favourite person. ❤️<br><br>
+ <small>One unexpected story. Two hearts. Countless memories.</small>
+</footer>
+
+</main>
+
+<script>
+const box=document.getElementById('hearts');
+
+for(let i=0;i<22;i++){
+ const h=document.createElement('div');
+ h.className='heart';
+ h.textContent=['♡','♥','💕'][i%3];
+ h.style.left=Math.random()*100+'%';
+ h.style.fontSize=(15+Math.random()*19)+'px';
+ h.style.animationDuration=(8+Math.random()*10)+'s';
+ h.style.animationDelay=(-Math.random()*12)+'s';
+ box.appendChild(h);
+}
+
+function startSurprise(){
+ const emojis=['❤️','💕','✨','🌸','💗'];
+ for(let i=0;i<35;i++){
+  const e=document.createElement('div');
+  e.textContent=emojis[i%emojis.length];
+  e.style.cssText=`position:fixed;left:${Math.random()*100}%;top:${Math.random()*100}%;font-size:25px;z-index:10;pointer-events:none;animation:show 1.5s ease`;
+  document.body.appendChild(e);
+  setTimeout(()=>e.remove(),1600);
+ }
+ document.querySelector('.hero').scrollIntoView({behavior:'smooth'});
+}
+
+function openLetter(){
+ const l=document.getElementById('letter');
+ l.style.display=l.style.display==='block'?'none':'block';
+}
+
+function lastSurprise(){
+ const f=document.getElementById('final');
+ f.style.display='block';
+ f.scrollIntoView({behavior:'smooth',block:'center'});
+}
+</script>
+</body>
+</html>
