@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Harshuu ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;600;700;800&display=swap');
+
+:root {
+  --pink:#ff6f9f;
+  --deep:#d93675;
+  --light:#fff0f5;
+  --text:#71364f;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(145deg,#fff0f5,#ffd5e5,#ffe8f0);
+  color:var(--text);
+  font-family:'Nunito',sans-serif;
+  overflow-x:hidden;
+}
+.hearts{
+  position:fixed;inset:0;pointer-events:none;z-index:0;
+  overflow:hidden;
+}
+.heart{
+  position:absolute;bottom:-40px;
+  color:#ff6f9f;opacity:.55;
+  animation:floatUp linear infinite;
+}
+@keyframes floatUp{
+  to{transform:translateY(-115vh) rotate(360deg);opacity:0}
+}
+main{
+  position:relative;z-index:1;
+  max-width:760px;margin:auto;padding:22px 16px 55px;
+  text-align:center;
+}
+.hero{
+  min-height:85vh;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+}
+.tag{
+  background:#ffffffa8;border:1px solid #ffc1d6;
+  border-radius:30px;padding:9px 18px;
+  font-size:12px;letter-spacing:2px;
+}
+h1{
+  font-family:'Great Vibes',cursive;
+  font-size:clamp(65px,15vw,112px);
+  color:var(--deep);line-height:1.1;
+  margin:22px 0 5px;
+  text-shadow:0 5px 20px #ff9cbd66;
+}
+.subtitle{font-size:17px;line-height:1.8}
+.big-heart{font-size:48px;animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.2)}}
+button{
+  border:0;border-radius:30px;padding:14px 23px;
+  background:linear-gradient(135deg,#ff8fb4,#df3e7c);
+  color:white;font-weight:800;font-size:15px;
+  box-shadow:0 8px 20px #d9367533;
+  cursor:pointer;margin:8px;
+}
+button:active{transform:scale(.96)}
+.section{
+  background:#ffffffbd;
+  border:1px solid #ffffff;
+  border-radius:25px;padding:26px 20px;
+  margin:22px 0;box-shadow:0 12px 35px #b84e7020;
+}
+h2{
+  font-family:'Great Vibes',cursive;
+  font-size:42px;color:var(--deep);
+  margin:0 0 15px;
+}
+p{line-height:1.9;font-size:15px}
+.letter{
+  display:none;text-align:left;
+  background:#fff8fb;border-radius:18px;
+  padding:22px;margin-top:18px;
+  line-height:2;font-size:15px;
+  white-space:pre-line;
+  animation:appear .8s ease;
+}
+@keyframes appear{
+  from{opacity:0;transform:translateY(15px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.gallery{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:12px;margin-top:18px;
+}
+.gallery img{
+  width:100%;height:190px;object-fit:cover;
+  border-radius:16px;border:3px solid white;
+  box-shadow:0 5px 15px #00000012;
+}
+.placeholder{
+  min-height:150px;border-radius:16px;
+  background:#ffe2ed;display:flex;
+  justify-content:center;align-items:center;
+  font-size:14px;padding:12px;
+}
+input[type=file]{max-width:100%;margin:12px 0}
+.promise{
+  text-align:left;line-height:2.2;
+  background:#fff5f9;border-radius:17px;padding:17px;
+}
+.promise div{margin:5px 0}
+footer{padding:30px 10px;font-size:13px}
+.hidden{display:none}
+#surprise{
+  display:none;font-family:'Great Vibes',cursive;
+  color:var(--deep);font-size:45px;
+  animation:appear 1s ease;
+}
+</style>
+</head>
+<body>
+
+<div class="hearts" id="hearts"></div>
+
+<main>
+  <section class="hero">
+    <div class="tag">A LITTLE SURPRISE MADE WITH LOVE 💗</div>
+    <div class="big-heart">❤️</div>
+    <h1>Happy Birthday<br>Harshuu</h1>
+    <p class="subtitle">
+      To my favourite person, my happiness,<br>
+      my MADAM GARUU! 🥹💕
+    </p>
+    <button onclick="celebrate()">Open Your Surprise 🎁</button>
+    <p style="font-size:12px">Made with all my love, just for you.</p>
+  </section>
+
+  <section class="section">
+    <h2>My Beautiful Girl 🌷</h2>
+    <p>
+      Happy Birthday to the best girl I have ever met.
+      I don't know how I got this lucky to have someone
+      like you in my life. Out of all the unexpected
+      things life brought me, meeting you was one of
+      the most beautiful surprises.
+    </p>
+    <p>
+      You are not just my girlfriend. You are my
+      favourite person, my comfort, my happiness,
+      and someone I never want to stop choosing. ❤️
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>A Letter From My Heart 💌</h2>
+    <p>There are so many things I want to tell you...</p>
+    <button onclick="openLetter()">Open My Heart ❤️</button>
+    <div class="letter" id="letter">
+My MADAM GARUUUU! 🥺❤️
+
+First of all, HAPPY BIRTHDAYYYY, MY GIRLLLL! 🎂💗
+
+I honestly don't know where to start because there is so much inside my heart that I sometimes fail to express in words.
+
+You are the best girl I have ever met in my life. I'm genuinely so lucky to have you. Our love story was so unexpected, wasn't it? I never imagined that someone could become this special to me.
+
+But there is something I want to say from the bottom of my heart.
+
+I'm really, really sorry for the way I treated you at the beginning. I know I was rude, and I know I made you feel bad. Even today, I regret those moments. I wish I could go back and handle things differently. You deserved better from me, and I'm sorry for hurting you. 🤧
+
+I know I make mistakes. Sometimes I do things you don't like, and sometimes I fail to express what I actually feel. But I genuinely want to improve. I'm trying my best to become a better person, not just through words but through my actions too.
+
+I LOVE YOU SO MUCH, HARSHUUUU! 😭❤️
+
+Please never feel like you have to hide anything from me. Share your happiness, your sadness, your fears, your silly thoughts, literally anything. You can be completely yourself with me. I won't judge you, and I don't want you to feel scared that I'll misunderstand you.
+
+I'm your well-wisher, your supporter and your person. I want to understand you better every day.
+
+And listen, madam garuu 😂❤️
+I'll still annoy you, irritate you, tease you and disturb you because that's never going to stop! 😁 But I'll also keep loving you, caring for you and making efforts for us.
+
+I don't want us to be perfect. I want us to be real.
+
+Let's fight sometimes, understand each other, apologise when we are wrong, solve things together and keep choosing each other. I want us to grow together and create beautiful memories.
+
+Don't overthink about tomorrow all the time, my girl. Let's enjoy the moments we have right now. You don't have to face everything alone. I'll always try to be there for you.
+
+I can't promise that I'll never make a mistake, but I can promise that I'll keep learning, listening and putting genuine effort into us.
+
+Thank you for coming into my life. Thank you for being YOU.
+
+You deserve all the happiness in this world. I wish I could give you a million hugs today. 🫂
+
+Once again, HAPPY BIRTHDAY, MY LOVE!
+
+I LOVE YOU THE MOSTTTT, MY HARSHUUUU! ❤️😭
+
+Forever your annoying person,
+Your boy. 💗
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Our Little Memories 📸</h2>
+    <p>Every picture has a story. Add your favourite moments here. 💕</p>
+    <input type="file" id="photos" accept="image/*" multiple>
+    <div class="gallery" id="gallery">
+      <div class="placeholder">📷 Your favourite memory</div>
+      <div class="placeholder">💗 Another beautiful moment</div>
+    </div>
+    <p style="font-size:12px">
+      Choose photos from your phone to display them here.
+      They stay on your device; they are not uploaded to GitHub.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>My Promises To You 🫶</h2>
+    <div class="promise">
+      <div>❤️ I will listen to you and try to understand you.</div>
+      <div>🌷 I will respect your feelings.</div>
+      <div>🫂 I will make an effort to be better.</div>
+      <div>💗 I will never take your love for granted.</div>
+      <div>✨ I will celebrate your happiness and support you through hard days.</div>
+      <div>♾️ I want us to keep growing together.</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>One Last Surprise 🎀</h2>
+    <p>
+      If I could choose one gift for myself today,
+      it would be one more beautiful year of memories
+      with you.
+    </p>
+    <button onclick="lastSurprise()">Click For One Last Surprise 💝</button>
+    <div id="surprise">
+      You are my favourite chapter. ❤️<br>
+      I love you, Harshuu! 🥹
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>A Little Music For You 🎶</h2>
+    <p>Tap below for a soft little melody made for this moment.</p>
+    <button id="musicButton" onclick="toggleMusic()">▶ Play Romantic Music</button>
+  </section>
+
+  <footer>
+    Made with endless love for HARSHUU ❤️<br>
+    From your forever-annoying person 😁<br><br>
+    <span style="color:#d93675">You are special. Never forget that. 💗</span>
+  </footer>
+</main>
+
+<script>
+// Floating hearts
+const heartBox=document.getElementById('hearts');
+for(let i=0;i<24;i++){
+  const h=document.createElement('div');
+  h.className='heart';
+  h.textContent=['❤','💕','♡','💗'][i%4];
+  h.style.left=Math.random()*100+'%';
+  h.style.fontSize=(15+Math.random()*22)+'px';
+  h.style.animationDuration=(7+Math.random()*9)+'s';
+  h.style.animationDelay=(-Math.random()*12)+'s';
+  heartBox.appendChild(h);
+}
+
+// Open letter
+function openLetter(){
+  const l=document.getElementById('letter');
+  l.style.display=l.style.display==='block'?'none':'block';
+}
+
+// Celebration
+function celebrate(){
+  for(let i=0;i<45;i++){
+    const h=document.createElement('div');
+    h.textContent=['❤️','💗','✨','🌸','💕'][i%5];
+    h.style.cssText=`position:fixed;left:${Math.random()*100}%;top:${Math.random()*100}%;font-size:25px;z-index:10;pointer-events:none;animation:appear 1.5s ease`;
+    document.body.appendChild(h);
+    setTimeout(()=>h.remove(),1600);
+  }
+  document.querySelector('.hero').scrollIntoView({behavior:'smooth'});
+}
+
+// Last surprise
+function lastSurprise(){
+  document.getElementById('surprise').style.display='block';
+  document.getElementById('surprise').scrollIntoView({behavior:'smooth',block:'center'});
+  celebrate();
+}
+
+// Photo gallery
+document.getElementById('photos').addEventListener('change',function(e){
+  const gallery=document.getElementById('gallery');
+  gallery.innerHTML='';
+  [...e.target.files].forEach(file=>{
+    const img=document.createElement('img');
+    img.src=URL.createObjectURL(file);
+    img.alt='Our memory';
+    gallery.appendChild(img);
+  });
+});
+
+// Gentle original synthesized melody
+let audioCtx=null,playing=false,timer=null,step=0;
+const notes=[261.63,329.63,392,329.63,293.66,349.23,440,349.23];
+function playNote(){
+  if(!playing)return;
+  const osc=audioCtx.createOscillator();
+  const gain=audioCtx.createGain();
+  osc.type='sine';
+  osc.frequency.value=notes[step%notes.length];
+  gain.gain.setValueAtTime(0.0001,audioCtx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.07,audioCtx.currentTime+0.08);
+  gain.gain.exponentialRampToValueAtTime(0.0001,audioCtx.currentTime+0.65);
+  osc.connect(gain);gain.connect(audioCtx.destination);
+  osc.start();osc.stop(audioCtx.currentTime+0.7);
+  step++;
+}
+function toggleMusic(){
+  const btn=document.getElementById('musicButton');
+  if(!playing){
+    const AudioContextClass=window.AudioContext||window.webkitAudioContext;
+    if(!AudioContextClass){
+      alert('Your browser does not support this music feature.');
+      return;
+    }
+    audioCtx=audioCtx||new AudioContextClass();
+    audioCtx.resume();
+    playing=true;
+    playNote();
+    timer=setInterval(playNote,650);
+    btn.textContent='❚❚ Stop Music';
+  }else{
+    playing=false;
+    clearInterval(timer);
+    btn.textContent='▶ Play Romantic Music';
+  }
+}
+</script>
+</body>
+</html>
